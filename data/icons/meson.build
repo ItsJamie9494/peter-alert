@@ -1,4 +1,4 @@
-application_id = 'dev.itsjamie9494.AlbanianVirus'
+application_id = 'dev.itsjamie9494.Albania'
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
 install_data(

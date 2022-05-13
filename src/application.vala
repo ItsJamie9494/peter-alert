@@ -16,10 +16,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Albanianvirus {
+namespace Albania {
     public class Application : Adw.Application {
         public Application () {
-            Object (application_id: "dev.itsjamie9494.AlbanianVirus", flags: ApplicationFlags.FLAGS_NONE);
+            Object (application_id: "dev.itsjamie9494.Albania", flags: ApplicationFlags.FLAGS_NONE);
         }
 
         construct {
@@ -36,7 +36,7 @@ namespace Albanianvirus {
             base.activate ();
             var win = this.active_window;
             if (win == null) {
-                win = new Albanianvirus.Window (this);
+                win = new Albania.Window (this);
             }
             win.present ();
         }
@@ -44,7 +44,7 @@ namespace Albanianvirus {
         private void on_about_action () {
             string[] authors = { "Jamie Murphy" };
             Gtk.show_about_dialog (this.active_window,
-                                   "program-name", "albanianvirus",
+                                   "program-name", "Albania",
                                    "authors", authors,
                                    "version", "0.1.0");
         }
@@ -53,4 +53,9 @@ namespace Albanianvirus {
             message ("app.preferences action activated");
         }
     }
+}
+
+int main (string[] args) {
+    var app = new Albania.Application ();
+    return app.run (args);
 }
