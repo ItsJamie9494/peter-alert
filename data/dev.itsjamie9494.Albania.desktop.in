@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=albanianvirus
-Exec=albanianvirus
-Icon=dev.itsjamie9494.AlbanianVirus
+Name=Albania
+Exec=albania
+Icon=dev.itsjamie9494.Albania
 Terminal=false
 Type=Application
 Categories=GTK;

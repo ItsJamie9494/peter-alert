@@ -1,1 +1,1 @@
-i18n.gettext('albanianvirus', preset: 'glib')
+i18n.gettext('albania', preset: 'glib')

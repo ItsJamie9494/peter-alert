@@ -1,9 +1,9 @@
 {
-    "app-id" : "dev.itsjamie9494.AlbanianVirus",
+    "app-id" : "dev.itsjamie9494.Albania",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "master",
     "sdk" : "org.gnome.Sdk",
-    "command" : "albanianvirus",
+    "command" : "albania",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -25,7 +25,7 @@
     ],
     "modules" : [
         {
-            "name" : "albanianvirus",
+            "name" : "Albania",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [

@@ -16,13 +16,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Albanianvirus {
-    [GtkTemplate (ui = "/dev/itsjamie9494/AlbanianVirus/window.ui")]
-    public class Window : Gtk.ApplicationWindow {
-        [GtkChild]
-        private unowned Gtk.Label label;
-
-        public Window (Gtk.Application app) {
+namespace Albania {
+    [GtkTemplate (ui = "/dev/itsjamie9494/Albania/window.ui")]
+    public class Window : Adw.ApplicationWindow {
+        public Window (Adw.Application app) {
             Object (application: app);
         }
     }
