@@ -18,7 +18,7 @@
 
 namespace Albania {
     [GtkTemplate (ui = "/dev/itsjamie9494/Albania/window.ui")]
-    public class Window : Adw.ApplicationWindow {
+    public class Window : Gtk.Dialog {
         public Window (Adw.Application app) {
             Object (application: app);
         }
