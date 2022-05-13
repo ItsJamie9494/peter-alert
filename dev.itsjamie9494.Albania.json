@@ -31,7 +31,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/ItsJamie9494/albania"
+                    "url" : "https://github.com/ItsJamie9494/albania",
+                    "branch" : "main"
                 }
             ]
         }
