@@ -1,44 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <requires lib="gtk" version="4.0"/>
-  <template class="AlbaniaWindow" parent="AdwApplicationWindow">
+  <template class="AlbaniaWindow" parent="GtkDialog">
+    <property name="title">Virus Alert !</property>
     <property name="default-width">600</property>
-    <property name="default-height">300</property>
-    <child type="titlebar">
-      <object class="GtkHeaderBar" id="header_bar">
-        <child type="end">
-          <object class="GtkMenuButton">
-            <property name="icon-name">open-menu-symbolic</property>
-            <property name="menu-model">primary_menu</property>
+    
+    <child type="action">
+      <object class="GtkButton" id="button_yes">
+        <property name="label">Yes</property>
+      </object>
+    </child>
+    <child type="action">
+      <object class="GtkButton" id="button_no">
+        <property name="label">No</property>
+      </object>
+    </child>
+    <child type="action">
+      <object class="GtkButton" id="button_cancel">
+        <property name="label">Cancel</property>
+      </object>
+    </child>
+    
+    <action-widgets>
+      <action-widget response="yes" default="true">button_yes</action-widget>
+      <action-widget response="no">button_no</action-widget>
+      <action-widget response="close">button_cancel</action-widget>
+    </action-widgets>
+    
+    <child internal-child="content_area">
+      <object class="GtkBox">
+        <property name="margin-top">30</property>
+        <property name="margin-bottom">20</property>
+        <property name="margin-start">20</property>
+        <property name="margin-end">20</property>
+        <property name="orientation">horizontal</property>
+        <property name="spacing">10</property>
+        <child>
+          <object class="GtkImage">
+            <property name="icon-name">dialog-error</property>
+            <property name="valign">start</property>
+            <property name="icon-size">large</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="valign">start</property>
+            <property name="vexpand">true</property>
+            <property name="hexpand">true</property>
+            <property name="wrap">true</property>
+            <property name="lines">5</property>
+            <property name="label">Hi, I am an Albanian virus but because of poor technology in my country unfortunately I am not able to harm your computer. Please be so kind to delete one of your important files yourself and then forward me to other users.  Many thanks for your cooperation!  Best regards,Albanian virus</property>
           </object>
         </child>
       </object>
     </child>
-    <child>
-      <object class="GtkLabel" id="label">
-        <property name="label">Hello, World!</property>
-        <attributes>
-          <attribute name="weight" value="bold"/>
-          <attribute name="scale" value="2"/>
-        </attributes>
-      </object>
-    </child>
   </template>
-
-  <menu id="primary_menu">
-    <section>
-      <item>
-        <attribute name="label" translatable="yes">_Preferences</attribute>
-        <attribute name="action">app.preferences</attribute>
-      </item>
-      <item>
-        <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
-        <attribute name="action">win.show-help-overlay</attribute>
-      </item>
-      <item>
-        <attribute name="label" translatable="yes">_About albanianvirus</attribute>
-        <attribute name="action">app.about</attribute>
-      </item>
-    </section>
-  </menu>
 </interface>
