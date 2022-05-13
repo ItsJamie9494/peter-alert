@@ -1,0 +1,7 @@
+data/dev.itsjamie9494.AlbanianVirus.desktop.in
+data/dev.itsjamie9494.AlbanianVirus.appdata.xml.in
+data/dev.itsjamie9494.AlbanianVirus.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+
