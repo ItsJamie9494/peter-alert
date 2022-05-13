@@ -31,7 +31,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "file:///Projects/Personal/AlbanianVirus"
+                    "url" : "https://github.com/ItsJamie9494/albania"
                 }
             ]
         }
