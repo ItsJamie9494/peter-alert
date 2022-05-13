@@ -2,6 +2,5 @@
 <gresources>
   <gresource prefix="/dev/itsjamie9494/Albania">
     <file>window.ui</file>
-    <file>gtk/help-overlay.ui</file>
   </gresource>
 </gresources>

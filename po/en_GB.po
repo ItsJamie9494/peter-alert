@@ -1,0 +1,66 @@
+# English translations for albania package.
+# Copyright (C) 2022 THE albania'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the albania package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: albania\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-13 12:29-0700\n"
+"PO-Revision-Date: 2022-05-13 12:29-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/dev.itsjamie9494.Albania.desktop.in:3
+msgid "Albania"
+msgstr "Albania"
+
+#: data/dev.itsjamie9494.Albania.appdata.xml.in:7
+msgid "No description"
+msgstr "No description"
+
+#: src/window.ui:5
+msgid "Virus Alert !"
+msgstr "Virus Alert !"
+
+#: src/window.ui:10
+msgid "Yes"
+msgstr "Yes"
+
+#: src/window.ui:15
+msgid "No"
+msgstr "No"
+
+#: src/window.ui:20
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/window.ui:52
+msgid ""
+"Hi, I am an Albanian virus but because of poor technology in my country "
+"unfortunately I am not able to harm your computer. Please be so kind to "
+"delete one of your important files yourself and then forward me to other "
+"users.  Many thanks for your cooperation!  Best regards,Albanian virus"
+msgstr ""
+"Hi, I am an Albanian virus but because of poor technology in my country "
+"unfortunately I am not able to harm your computer. Please be so kind to "
+"delete one of your important files yourself and then forward me to other "
+"users.  Many thanks for your cooperation!  Best regards,Albanian virus"
+
+#: src/application.vala:54
+msgid "A GTK4 recreation of the Albanian Virus joke"
+msgstr "A GTK4 recreation of the Albanian Virus joke"
+
+#: src/application.vala:55
+msgid "Copyright © 2022 Jamie Murphy"
+msgstr "Copyright © 2022 Jamie Murphy"
+
+#: src/application.vala:58
+msgid "My Personal Website"
+msgstr "My Personal Website"

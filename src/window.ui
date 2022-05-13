@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<interface>
+<interface domain="albania">
   <requires lib="gtk" version="4.0"/>
   <template class="AlbaniaWindow" parent="GtkDialog">
-    <property name="title">Virus Alert !</property>
+    <property name="title" translatable="yes">Virus Alert !</property>
     <property name="default-width">600</property>
     
     <child type="action">
       <object class="GtkButton" id="button_yes">
-        <property name="label">Yes</property>
+        <property name="label" translatable="yes">Yes</property>
       </object>
     </child>
     <child type="action">
       <object class="GtkButton" id="button_no">
-        <property name="label">No</property>
+        <property name="label" translatable="yes">No</property>
       </object>
     </child>
     <child type="action">
       <object class="GtkButton" id="button_cancel">
-        <property name="label">Cancel</property>
+        <property name="label" translatable="yes">Cancel</property>
       </object>
     </child>
     
@@ -49,7 +49,7 @@
             <property name="hexpand">true</property>
             <property name="wrap">true</property>
             <property name="lines">5</property>
-            <property name="label">Hi, I am an Albanian virus but because of poor technology in my country unfortunately I am not able to harm your computer. Please be so kind to delete one of your important files yourself and then forward me to other users.  Many thanks for your cooperation!  Best regards,Albanian virus</property>
+            <property name="label" translatable="yes">Hi, I am an Albanian virus but because of poor technology in my country unfortunately I am not able to harm your computer. Please be so kind to delete one of your important files yourself and then forward me to other users.  Many thanks for your cooperation!  Best regards,Albanian virus</property>
           </object>
         </child>
       </object>
