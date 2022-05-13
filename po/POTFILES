@@ -1,7 +1,5 @@
 data/dev.itsjamie9494.Albania.desktop.in
 data/dev.itsjamie9494.Albania.appdata.xml.in
-data/dev.itsjamie9494.Albania.gschema.xml
 src/window.ui
-src/main.vala
-src/window.vala
+src/application.vala
 

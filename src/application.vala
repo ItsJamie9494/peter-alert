@@ -23,13 +23,18 @@ namespace Albania {
         }
 
         construct {
+            Intl.setlocale (LocaleCategory.ALL, "");
+            Intl.textdomain (Config.GETTEXT_PACKAGE);
+            Intl.bindtextdomain (Config.GETTEXT_PACKAGE, Config.LOCALEDIR);
+            Intl.bind_textdomain_codeset (Config.GETTEXT_PACKAGE, "UTF-8");
+        
             ActionEntry[] action_entries = {
                 { "about", this.on_about_action },
-                { "preferences", this.on_preferences_action },
                 { "quit", this.quit }
             };
             this.add_action_entries (action_entries, this);
             this.set_accels_for_action ("app.quit", {"<primary>q"});
+            this.set_accels_for_action ("app.about", {"<shift><ctrl>a"});
         }
 
         public override void activate () {
@@ -46,11 +51,13 @@ namespace Albania {
             Gtk.show_about_dialog (this.active_window,
                                    "program-name", "Albania",
                                    "authors", authors,
-                                   "version", "0.1.0");
-        }
-
-        private void on_preferences_action () {
-            message ("app.preferences action activated");
+                                   "comments", _("A GTK4 recreation of the Albanian Virus joke"),
+                                   "copyright", _("Copyright © 2022 Jamie Murphy"),
+                                   "logo-icon-name", "dev.itsjamie9494.Albania",
+                                   "website", "https://jamiethalacker.dev",
+                                   "website-label", _("My Personal Website"),
+                                   "license-type", Gtk.License.GPL_3_0,
+                                   "version", Config.VERSION);
         }
     }
 }
