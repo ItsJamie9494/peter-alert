@@ -1,4 +1,4 @@
-application_id = 'dev.itsjamie9494.Albania'
+application_id = 'dev.itsjamie9494.PeterAlert'
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
 install_data(

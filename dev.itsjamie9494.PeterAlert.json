@@ -1,9 +1,9 @@
 {
-    "app-id" : "dev.itsjamie9494.Albania",
+    "app-id" : "dev.itsjamie9494.PeterAlert",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
-    "command" : "albania",
+    "command" : "peter-alert",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -25,13 +25,13 @@
     ],
     "modules" : [
         {
-            "name" : "Albania",
+            "name" : "PeterAlert",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/ItsJamie9494/albania",
+                    "url" : "https://github.com/ItsJamie9494/peter-alert",
                     "branch" : "main"
                 }
             ]

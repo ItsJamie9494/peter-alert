@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<interface domain="albania">
+<interface domain="peter-alert">
   <requires lib="gtk" version="4.0"/>
-  <template class="AlbaniaWindow" parent="GtkDialog">
-    <property name="title" translatable="yes">Virus Alert !</property>
+  <template class="PeterAlertWindow" parent="GtkDialog">
+    <property name="title" translatable="yes">Peter Alert</property>
     <property name="default-width">600</property>
     
     <child type="action">
-      <object class="GtkButton" id="button_yes">
-        <property name="label" translatable="yes">Yes</property>
-      </object>
-    </child>
-    <child type="action">
-      <object class="GtkButton" id="button_no">
-        <property name="label" translatable="yes">No</property>
-      </object>
-    </child>
-    <child type="action">
-      <object class="GtkButton" id="button_cancel">
-        <property name="label" translatable="yes">Cancel</property>
+      <object class="GtkButton" id="button_ok">
+        <property name="label" translatable="yes">Ok</property>
       </object>
     </child>
     
     <action-widgets>
-      <action-widget response="yes" default="true">button_yes</action-widget>
-      <action-widget response="no">button_no</action-widget>
-      <action-widget response="close">button_cancel</action-widget>
+      <action-widget response="ok" default="true">button_ok</action-widget>
     </action-widgets>
     
     <child internal-child="content_area">

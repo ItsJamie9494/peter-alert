@@ -1,6 +1,6 @@
 desktop_file = i18n.merge_file(
-  input: 'dev.itsjamie9494.Albania.desktop.in',
-  output: 'dev.itsjamie9494.Albania.desktop',
+  input: 'dev.itsjamie9494.PeterAlert.desktop.in',
+  output: 'dev.itsjamie9494.PeterAlert.desktop',
   type: 'desktop',
   po_dir: '../po',
   install: true,
@@ -15,8 +15,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-  input: 'dev.itsjamie9494.Albania.appdata.xml.in',
-  output: 'dev.itsjamie9494.Albania.appdata.xml',
+  input: 'dev.itsjamie9494.PeterAlert.appdata.xml.in',
+  output: 'dev.itsjamie9494.PeterAlert.appdata.xml',
   po_dir: '../po',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'appdata')
@@ -29,7 +29,7 @@ if appstream_util.found()
   )
 endif
 
-install_data('dev.itsjamie9494.Albania.gschema.xml',
+install_data('dev.itsjamie9494.PeterAlert.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
 )
 
