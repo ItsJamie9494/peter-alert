@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the albania package.
+# This file is distributed under the same license as the peter-alert package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: albania\n"
+"Project-Id-Version: peter-alert\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-13 12:29-0700\n"
+"POT-Creation-Date: 2022-05-14 20:32-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,40 +17,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/dev.itsjamie9494.Albania.desktop.in:3
-msgid "Albania"
+#: data/dev.itsjamie9494.PeterAlert.desktop.in:3 src/window.ui:5
+msgid "Peter Alert"
 msgstr ""
 
-#: data/dev.itsjamie9494.Albania.appdata.xml.in:7
-msgid "No description"
+#: data/dev.itsjamie9494.PeterAlert.appdata.xml.in:6
+#: data/dev.itsjamie9494.PeterAlert.appdata.xml.in:10 src/application.vala:54
+msgid "A GTK4 recreation of the peter alert joke"
 msgstr ""
 
-#: src/window.ui:5
-msgid "Virus Alert !"
+#: data/dev.itsjamie9494.PeterAlert.appdata.xml.in:20
+msgid "Initial Release"
 msgstr ""
 
 #: src/window.ui:10
-msgid "Yes"
+msgid "Ok"
 msgstr ""
 
-#: src/window.ui:15
-msgid "No"
-msgstr ""
-
-#: src/window.ui:20
-msgid "Cancel"
-msgstr ""
-
-#: src/window.ui:52
+#: src/window.ui:40
 msgid ""
 "Hi, I am an Albanian virus but because of poor technology in my country "
 "unfortunately I am not able to harm your computer. Please be so kind to "
 "delete one of your important files yourself and then forward me to other "
 "users.  Many thanks for your cooperation!  Best regards,Albanian virus"
-msgstr ""
-
-#: src/application.vala:54
-msgid "A GTK4 recreation of the Albanian Virus joke"
 msgstr ""
 
 #: src/application.vala:55

@@ -21,13 +21,13 @@ config_file = configure_file(
 gnome = import('gnome')
 
 sources += gnome.compile_resources(
-  'albania-resources',
-  'albania.gresource.xml',
+  'peteralert-resources',
+  'peter-alert.gresource.xml',
   c_name: 'as_resources'
 )
 
 executable(
-  'albania',
+  'peter-alert',
   sources,
   config_file,
   vala_args: '--target-glib=2.50',

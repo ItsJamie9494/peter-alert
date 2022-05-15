@@ -16,8 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Albania {
-    [GtkTemplate (ui = "/dev/itsjamie9494/Albania/window.ui")]
+namespace PeterAlert {
+    [GtkTemplate (ui = "/dev/itsjamie9494/PeterAlert/window.ui")]
     public class Window : Gtk.Dialog {
         public Window (Adw.Application app) {
             Object (application: app);

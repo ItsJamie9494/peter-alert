@@ -16,10 +16,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Albania {
+namespace PeterAlert {
     public class Application : Adw.Application {
         public Application () {
-            Object (application_id: "dev.itsjamie9494.Albania", flags: ApplicationFlags.FLAGS_NONE);
+            Object (application_id: "dev.itsjamie9494.PeterAlert", flags: ApplicationFlags.FLAGS_NONE);
         }
 
         construct {
@@ -41,7 +41,7 @@ namespace Albania {
             base.activate ();
             var win = this.active_window;
             if (win == null) {
-                win = new Albania.Window (this);
+                win = new PeterAlert.Window (this);
             }
             win.present ();
         }
@@ -49,11 +49,11 @@ namespace Albania {
         private void on_about_action () {
             string[] authors = { "Jamie Murphy" };
             Gtk.show_about_dialog (this.active_window,
-                                   "program-name", "Albania",
+                                   "program-name", "Peter Alert",
                                    "authors", authors,
-                                   "comments", _("A GTK4 recreation of the Albanian Virus joke"),
+                                   "comments", _("A GTK4 recreation of the peter alert joke"),
                                    "copyright", _("Copyright © 2022 Jamie Murphy"),
-                                   "logo-icon-name", "dev.itsjamie9494.Albania",
+                                   "logo-icon-name", "dev.itsjamie9494.PeterAlert",
                                    "website", "https://jamiethalacker.dev",
                                    "website-label", _("My Personal Website"),
                                    "license-type", Gtk.License.GPL_3_0,
@@ -63,6 +63,6 @@ namespace Albania {
 }
 
 int main (string[] args) {
-    var app = new Albania.Application ();
+    var app = new PeterAlert.Application ();
     return app.run (args);
 }

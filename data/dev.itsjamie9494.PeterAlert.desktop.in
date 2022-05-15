@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=Albania
-Exec=albania
-Icon=dev.itsjamie9494.Albania
+Name=Peter Alert
+Exec=peter-alert
+Icon=dev.itsjamie9494.PeterAlert
 Terminal=false
 Type=Application
 Categories=GTK;

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>dev.itsjamie9494.Albania.desktop</id>
+	<id>dev.itsjamie9494.PeterAlert.desktop</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
-  <summary>A GTK4 recreation of the Albanian Virus joke</summary>
-  <name translatable="no">Albania</name>
+  <summary>A GTK4 recreation of the peter alert joke</summary>
+  <name translatable="no">Peter Alert</name>
   <url type="homepage">https://jamiethalacker.dev</url>
 	<description>
-	  <p>A GTK4 recreation of the Albanian Virus joke</p>
+	  <p>A GTK4 recreation of the peter alert joke</p>
 	</description>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/ItsJamie9494/albania/main/data/shot.png</image>
+      <image>https://raw.githubusercontent.com/ItsJamie9494/peter-alert/main/data/shot.png</image>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="1.0.0" date="2022-05-13">
+    <release version="1.0.0" date="2022-05-14">
       <description>
         <p>Initial Release</p>
       </description>

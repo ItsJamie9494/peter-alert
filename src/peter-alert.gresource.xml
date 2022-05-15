@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/dev/itsjamie9494/Albania">
+  <gresource prefix="/dev/itsjamie9494/PeterAlert">
     <file>window.ui</file>
   </gresource>
 </gresources>

@@ -1,3 +1,3 @@
-# albania
+# Peter Alert
 
-> A GTK4 recreation of the Albanian Virus joke
+> A GTK4 recreation of the peter alert joke

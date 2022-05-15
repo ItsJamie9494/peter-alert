@@ -1,14 +1,14 @@
-# English translations for albania package.
-# Copyright (C) 2022 THE albania'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the albania package.
+# English translations for peter-alert package.
+# Copyright (C) 2022 THE peter-alert'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the peter-alert package.
 # Automatically generated, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: albania\n"
+"Project-Id-Version: peter-alert\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-13 12:29-0700\n"
-"PO-Revision-Date: 2022-05-13 12:29-0700\n"
+"POT-Creation-Date: 2022-05-14 20:32-0700\n"
+"PO-Revision-Date: 2022-05-14 20:32-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_CA\n"
@@ -17,31 +17,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/dev.itsjamie9494.Albania.desktop.in:3
-msgid "Albania"
-msgstr "Albania"
+#: data/dev.itsjamie9494.PeterAlert.desktop.in:3 src/window.ui:5
+msgid "Peter Alert"
+msgstr "Peter Alert"
 
-#: data/dev.itsjamie9494.Albania.appdata.xml.in:7
-msgid "No description"
-msgstr "No description"
+#: data/dev.itsjamie9494.PeterAlert.appdata.xml.in:6
+#: data/dev.itsjamie9494.PeterAlert.appdata.xml.in:10 src/application.vala:54
+msgid "A GTK4 recreation of the peter alert joke"
+msgstr "A GTK4 recreation of the peter alert joke"
 
-#: src/window.ui:5
-msgid "Virus Alert !"
-msgstr "Virus Alert !"
+#: data/dev.itsjamie9494.PeterAlert.appdata.xml.in:20
+msgid "Initial Release"
+msgstr "Initial Release"
 
 #: src/window.ui:10
-msgid "Yes"
-msgstr "Yes"
+msgid "Ok"
+msgstr "Ok"
 
-#: src/window.ui:15
-msgid "No"
-msgstr "No"
-
-#: src/window.ui:20
-msgid "Cancel"
-msgstr "Cancel"
-
-#: src/window.ui:52
+#: src/window.ui:40
 msgid ""
 "Hi, I am an Albanian virus but because of poor technology in my country "
 "unfortunately I am not able to harm your computer. Please be so kind to "
@@ -52,10 +45,6 @@ msgstr ""
 "unfortunately I am not able to harm your computer. Please be so kind to "
 "delete one of your important files yourself and then forward me to other "
 "users.  Many thanks for your cooperation!  Best regards,Albanian virus"
-
-#: src/application.vala:54
-msgid "A GTK4 recreation of the Albanian Virus joke"
-msgstr "A GTK4 recreation of the Albanian Virus joke"
 
 #: src/application.vala:55
 msgid "Copyright © 2022 Jamie Murphy"
