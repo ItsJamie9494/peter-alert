@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: peter-alert\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-14 20:32-0700\n"
+"POT-Creation-Date: 2022-05-14 20:50-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,14 +32,6 @@ msgstr ""
 
 #: src/window.ui:10
 msgid "Ok"
-msgstr ""
-
-#: src/window.ui:40
-msgid ""
-"Hi, I am an Albanian virus but because of poor technology in my country "
-"unfortunately I am not able to harm your computer. Please be so kind to "
-"delete one of your important files yourself and then forward me to other "
-"users.  Many thanks for your cooperation!  Best regards,Albanian virus"
 msgstr ""
 
 #: src/application.vala:55
