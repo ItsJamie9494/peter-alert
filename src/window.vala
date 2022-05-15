@@ -19,6 +19,12 @@
 namespace PeterAlert {
     [GtkTemplate (ui = "/dev/itsjamie9494/PeterAlert/window.ui")]
     public class Window : Gtk.Dialog {
+        [GtkCallback]
+        public void on_btn_click () {
+            //  this works :/
+            this.get_application ().release ();
+        }
+
         public Window (Adw.Application app) {
             Object (application: app);
         }
