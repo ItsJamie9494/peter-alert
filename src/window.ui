@@ -3,11 +3,12 @@
   <requires lib="gtk" version="4.0"/>
   <template class="PeterAlertWindow" parent="GtkDialog">
     <property name="title" translatable="yes">Peter Alert</property>
-    <property name="default-width">600</property>
+    <property name="default-width">400</property>
     
     <child type="action">
       <object class="GtkButton" id="button_ok">
         <property name="label" translatable="yes">Ok</property>
+        <signal name="clicked" handler="on_btn_click"/>
       </object>
     </child>
     
@@ -22,22 +23,12 @@
         <property name="margin-start">20</property>
         <property name="margin-end">20</property>
         <property name="orientation">horizontal</property>
-        <property name="spacing">10</property>
+        <property name="halign">center</property>
         <child>
           <object class="GtkImage">
-            <property name="icon-name">dialog-error</property>
+            <property name="resource">/dev/itsjamie9494/PeterAlert/peter.png</property>
             <property name="valign">start</property>
-            <property name="icon-size">large</property>
-          </object>
-        </child>
-        <child>
-          <object class="GtkLabel">
-            <property name="valign">start</property>
-            <property name="vexpand">true</property>
-            <property name="hexpand">true</property>
-            <property name="wrap">true</property>
-            <property name="lines">5</property>
-            <property name="label" translatable="yes">Hi, I am an Albanian virus but because of poor technology in my country unfortunately I am not able to harm your computer. Please be so kind to delete one of your important files yourself and then forward me to other users.  Many thanks for your cooperation!  Best regards,Albanian virus</property>
+            <property name="pixel-size">200</property>
           </object>
         </child>
       </object>
